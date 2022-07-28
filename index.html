@@ -7,6 +7,7 @@
     <title>edTech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -46,80 +47,279 @@
                 </div>
             </div>
         </nav>
-        <section>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <!-- bannar start -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide m-3" data-bs-ride="carousel">
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Get Started Digital
-                                Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable
-                                content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg">Get Start</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Get Started Digital
-                                Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable
-                                content of a page when looking at its layout.</p><button type="button"
-                                class="btn btn-primary btn-lg">Get Start</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block text-center">
-                            <h1>Get Started Digital
-                                Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable
-                                content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg">Get Start</button>
-                        </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="10000">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 back" alt="...">
+                    <div class="carousel-caption">
+                        <h6>What does education mean?</h6>
+                        <p>Mean is the average of a group of numbers</p>
+                        <div class="btn btn-primary rounded">Get Started</div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100 back" alt="...">
+                    <div class="carousel-caption fw-bold">
+                        <h6>Why education is the key to success?</h6>
+                        <p class="text-">Education lessens the challenges you will face in life.</p>
+                        <div class="btn btn-primary rounded">Get Started</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100 back" alt="...">
+                    <div class="carousel-caption">
+                        <h6>What is true education?</h6>
+                        <p class="fw-bold">Enough knowledge successful in life after completing
+                            school</p>
+                        <div class="btn btn-primary rounded">Get Started</div>
+                    </div>
+                </div>
             </div>
-
-        </section>
-
-
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- bannar End -->
     </header>
-
     <main>
-        <section class="container">
-            <div class=" text-dark d-none d-md-block text-center my-5">
-                <h1 class="fw-bold">Discover Our Popular
-                    Courses</h1>
-                <br>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-            </div>
-        </section>
+        <!-- Discover start -->
+        <div class="text-center">
+            <h1>Discover Our Popular Courses</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.</p>
+        </div>
+        <!-- Discover End -->
+        <!-- courses start -->
+        <section class="mt-5">
+            <!-- <div class="container">
+                <div class="row col-g-3">
+                    <div class="d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <img src="images/course/course-1.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Fundamental Of UI/UX Design</h4>
+                            <p>UX design:Empathy, strategy, usability,inclusivity, and
+                                validation.</p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <img src="images/course/course-2.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Javascript Basic to advanced</h4>
+                            <p>Basics of JavaScript (Data types, Loops, Arrays, Objects, Functions, etc)</p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <img src="images/course/course-3.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Fullstack Web Development</h4>
+                            <p>Front end and backend programming course</p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6 ">
+                        <div>
+                            <img src="images/course/course-4.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Digital Marketing</h4>
+                            <p>Digital marketing, also called online marketing.
+                            </p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <img src="images/course/course-5.png" alt="">
+                        </div>
+                        <div class="">
+                            <h4>Photography Basic Rules</h4>
+                            <p>Rule of Thirds.Simplify.Fill the Frame.Framing.Leading Lines.Space.Keep Horizons
+                                Straight.Break the Rules.</p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex border gap-3 my-3 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <img src="images/course/course-6.png" alt="">
+                        </div>
+                        <div class="">
+                            <h4>Motion Graphics</h4>
+                            <p>In the most basic terms, motion graphics relate to animated graphic design.</p>
+                            <p class="text-info fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
 
-        <section class="container">
-            <div class="container text-center">
-                <div class="row row-cols-2">
-                    <div class="col">Column</div>
-                    <div class="col">Column</div>
-                    <div class="col">Column</div>
-                    <div class="col">Column</div>
+                </div> -->
+            <div class="container">
+                <div class="row gap-5 justify-content-center">
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="max-width: 540px; padding: 0%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 image">
+                                <img src="images/course/course-1.png" class="w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">UX design:Empathy, strategy, usability,inclusivity, and
+                                        validation.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
+        <!-- button start -->
+        <div class="bg-light">
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-primary">See More Courses</button>
+            </div>
+        </div>
+        <!-- button End -->
+        <!-- courses start -->
+
+        <!-- Optional start -->
+        <!-- <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-sm-12 col-md-6 w-100">
+                    ey6fgeuiwfh
+                </div>
+                <div class="col-sm-12 col-md-6 w-100 ">
+                    efuyheuifj
+                </div>
+
+            </div>
+        </div> -->
+
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img class="w-100" src="images/working.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto">
+                    <h1>Explore The elearning Institute</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined.</p>
+                    <div class="d-flex gap-5">
+                        <div>
+                            <h1>3.2K+</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <div>
+                            <h1>3.2K+</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <div>
+                            <h1>3.2K+</h1>
+                            <p>Online Course</p>
+                        </div>
+                    </div>
+                    <div class="btn btn-primary">Read More</div>
+
+                </div>
+
+
+
+
+
+                <!-- Optional End -->
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

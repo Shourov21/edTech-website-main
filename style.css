@@ -1,0 +1,7 @@
+.image img {
+    height: 175px;
+}
+
+.back {
+    filter: brightness(60%);
+}
