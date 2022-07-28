@@ -2,6 +2,11 @@
     height: 175px;
 }
 
+.crs-1 h6,
+p {
+    color: white;
+}
+
 .back {
     filter: brightness(60%);
 }
@@ -41,4 +46,36 @@
     margin-top: 45px;
     font-size: 25px;
     font-weight: 700;
+}
+
+.register button:hover {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: black;
+}
+
+.ques-1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ques-1 p {
+    color: rgb(122, 129, 129);
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.accordion-item {
+    /* margin-top: 20px; */
+    border: 1px solid rgb(185, 185, 185);
+    padding: 20px;
+    border-top: 1px solid rgb(185, 185, 185);
 }
